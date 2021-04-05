@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat&display=swap');
+
+body {
+    background-image: url(thor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .introducing {
+    position: relative;
+    top: 500px;
+  }
+
+  h1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    color: red;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+
+
+  @media all and (min-width: 768px) and (max-width: 1024px) { 
+    h1 {
+      color: yellow;
+    }
+
+    p {
+      color: red;
+      font-size: 20px;
+    }
+  }
