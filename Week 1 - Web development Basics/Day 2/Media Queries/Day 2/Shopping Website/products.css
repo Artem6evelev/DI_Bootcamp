@@ -1,0 +1,144 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+body, html {
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1614990354198-b06764dcb13c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo {
+      height: 80px;
+      float: left;
+  }
+
+  nav {
+      background-color: darkgoldenrod;
+      color: white;
+      text-align: right;
+      height: 20px;
+      padding: 30px;
+  }
+  
+  li {
+          list-style-type: none;
+          display: inline;
+          padding: 40px;
+          margin: 20px;
+          font-size: 20px;
+  }
+  
+  .link {
+      color: black;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    height: 50px;
+    margin: 0px;
+    padding: 5px;
+}
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.product-grid {
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    font-family: 'century gothic';
+    text-align: center;
+}
+
+.product-grid .product-image {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-grid:hover .product-image {
+    border-color: #693593;
+}
+
+.product-grid .product-image a.image {
+    display: block;
+}
+
+.product-grid .product-image img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s wase 0s;
+}
+
+.product-grid:hover .product-image img {
+    transform: scale(1.2);
+}
+
+.product-image .hot-label {
+    color: #fff;
+    background: #ff3859;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-grid .links {
+    font-size: 0;
+    background: #693593;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.product-grid:hover .links{
+    opacity: 1;
+}
+
+.product-grid links li {
+    padding: 0 10px;
+    border-right: 1px solid rgab(255,255,255,0.5);
+    display: inline-block;
+}
+
+.product-grid .links li:last-child {
+    border: none;
+}
+
+.product-grid .links li a {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}

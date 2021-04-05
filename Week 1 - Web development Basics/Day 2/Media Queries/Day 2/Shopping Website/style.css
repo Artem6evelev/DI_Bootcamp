@@ -1,0 +1,60 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+body, html {
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1614990354198-b06764dcb13c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo {
+      height: 80px;
+      float: left;
+  }
+
+  nav {
+      background-color: darkgoldenrod;
+      color: white;
+      text-align: right;
+      height: 20px;
+      padding: 30px;
+  }
+  
+  li {
+          list-style-type: none;
+          display: inline;
+          padding: 40px;
+          margin: 20px;
+          font-size: 20px;
+  }
+  
+  .link {
+      color: black;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    height: 50px;
+    margin: 0px;
+    padding: 5px;
+}
+
+  /* Products */
+
+
+
+
+
+
+  
+
