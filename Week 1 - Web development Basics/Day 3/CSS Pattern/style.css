@@ -1,0 +1,118 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;   
+    justify-content: space-between;
+}
+
+/* Left Column */
+.column_left {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    position: absolute;
+}
+
+.box1 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box2 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box3 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box4 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+
+/* Center Column */
+.center {
+    display: flex;
+    flex-direction: raw;
+    position: absolute;
+    align-self: center;
+    top: 180px;
+}
+
+.box1 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box2 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box3 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box4 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+/* Right Column */
+.right_column {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    position: absolute;
+}
+
+.box1 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box2 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box3 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
+.box4 {
+    background: yellow;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid #333;
+}
+
