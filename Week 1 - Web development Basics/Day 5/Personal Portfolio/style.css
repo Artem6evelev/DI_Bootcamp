@@ -1,0 +1,36 @@
+body {
+    background-color: #eee;
+}
+
+.skillBox {
+    flex: 1 1 40rem;
+    border-radius: .5rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    padding: .5rem 1.5rem;
+    margin: 0.5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.sc {
+    margin: 10px;
+}
+
+.pb {
+    margin: 20px;  
+}
+
+.contact-information {
+    background-color: #fff;
+    margin: 5rem;
+    padding: 3rem 1rem;
+}
+
+.container-footer {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
