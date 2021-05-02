@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge</title>
+</head>
+<body>
+
+    <form
+    name="frm"
+    action=""
+    id="myForm"
+    method="GET"
+    onsubmit="return getJson()"
+  >
+    <input name="firstName" type="text" name="" id="" />
+    <input name="lastName" type="text" />
+    <input type="submit" value="send" />
+  </form>
+    <!-- Javascript -->
+    <script>
+const getJson = () => {
+  let frm = document.forms.frm;
+  let firstName = frm.elements.firstName.value;
+  let lastName = frm.elements.lastName.value;
+  console.log(firstName, lastName);
+
+  let obj = {
+    firstName,
+    lastName,
+  };
+
+  let json = JSON.stringify(obj);
+  console.log(json);
+  return false;
+};
+
+
+
+    </script>
+</body>
+</html>
